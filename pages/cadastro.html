@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">LEARN<br>CODE<i class="fas fa-code"></i></h1>
+            <h2>WEB DEV SCHOOL</h2>
+            <nav>
+                <a href="../index.html"><i class="far fa-flag"></i> inicio</a>
+                <a href="../pages/loginpg.html"><i class="fas fa-sign-in-alt"></i> login</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+                <form action="cadastrar" id="cadastrar" method="post">
+                    <input type="text" id="nome" placeholder="NOME">
+                    <input type="text" id="sobrenome" placeholder="SOBRENOME">
+                    <input type="email" id="email" placeholder="E-MAIL">
+                    <input type="password" id="password" placeholder="SENHA">
+                   <button type="submit" form="cadastrar" value="Submit" onclick="cad()">CADASTRAR</button>
+                </form>
+                <a href="./loginpg.html"> já tenho cadastro</a>
+                
+        </div>
+    </main>
+    
+    <script src="https://kit.fontawesome.com/06ec0c2e7c.js" crossorigin="anonymous"></script>
+    <script src="../js/cadastrar.js"></script>
+</body>
+</html>

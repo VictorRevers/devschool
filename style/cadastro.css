@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+:root{
+   --preto:#3F3D56;
+   --hv:#D0CDE1;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family:'Roboto';
+   color: #ffffff;
+}
+
+/*header*/
+header .container{
+   background-color: var(--preto);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+}
+
+header .logo{
+   margin-left: 10px;
+}
+
+header nav a{
+   text-decoration: none;
+   color: #ffffff;
+   margin-right: 10px;
+}
+
+header nav a:hover{
+   color: var(--hv);
+   transition: .3s;
+}
+
+main .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 100px;
+   
+}
+
+main form{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+main form input{
+   margin-bottom: 3px;
+   width: 400px;
+   height: 40px;
+}
+
+main form button{
+   background-color: var(--preto);
+   color: #ffffff;
+   box-shadow: 1px 1px 1px 1px ;
+   border: none;
+   margin-bottom: 3px;
+   width: 400px;
+   height: 40px;
+}
+
+main form button:hover{
+   background-color: var(--hv);
+   color: var(--preto);
+   transition: .3s;
+}
+
+main a{
+   text-decoration: none;
+}
+
+main a:hover{
+   text-decoration: underline;
+}
